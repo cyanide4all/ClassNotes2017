@@ -1,0 +1,112 @@
+Qué es el software?
+  -Una solución
+    *Su negocio puede depender del software
+    *Está haciendo una inversión
+    *Puede detener un proyecto
+  -Una herramienta
+    *Medio para alcanzar un fin
+    *Útil para quien la va a utilizar
+      **Es importante escuchar y entender al usuario
+  -Un producto
+    *Se distingue de los productos tangibles
+      **Coste de desarrollo reducido
+      **Coste de prototipado reducido
+      **Coste de replicación bajo/nulo
+      **Time-to-market (desde idea hasata comercialización) corto
+      **Easy updates
+        ***Útil incluso incompleto
+        ***Endless betas
+      **Comunmente creado/adaptado a las necesidades del cliente
+  -Una obra (arte/artesanía)
+    *Requiere de conocimientos técnicos y esfuerzo creativo
+      **La implicación del equipo es importante
+      **Requiere  esfuerzo intelectual
+      **Skill based results
+
+Evolución del software
+  -Años 80-90: Disquetes/CDs
+    *Poco actualizables
+    *Funcionalidad reducida
+  -Años 90-00: Descargables de Internet
+    *Respositorios
+    *Actualizaciones automáticas
+    *Aplicaciones en evolución continua
+  -Años 00-Actualidad
+    *Software como servicio
+      **No requiere de instalación
+      **Actualización continua y transparente
+      **Multiplataforma
+      **Ej: Gmail, Facebook, Twitter
+  -Conclusiones
+    *Elemento en continua y rápida evolución
+      **Nuevas funcionalidades sin esperar nuevas versiones
+    *No hay un modelo único y válido de software
+
+Calidad del software
+  -Factores de influencia
+    *Cumplimiento de requisitos
+    *Útil y funcional para el usuario
+    *Mantenibilidad
+    *Consumo de recursos
+    *Coste reducido
+    *Certificaciones ISO
+  -Es importante distinguir
+    *Calidad del proceso
+    *Calidad del producto
+
+Metodologías de desarrollo
+  -Qué son?
+    *conjunto de normas y/o recomendaciones para desarrollar software
+    *Describen
+      **Proceso de desarrollo
+      **Roles y responsabilidades
+    *También pueden definir
+      **Valores
+      **Principios
+      **Prácticas
+      **Herramientas
+  -Etapas
+    *Análisis de negocio
+    *Captura de requisitos
+    *Planificación
+    *Análisis
+    *Diseño
+    *Desarrollo
+    *Pruebas
+    *Despliegue
+    *Mantenimiento
+  -Modelo en Cascada
+    *Etapas ejecutadas linealmente
+    *Se empieza una etapa al completar la anterior completamente
+    *Algunas cascadas permiten backtracking
+  -Modelo en espiral
+    *Iteraciones
+    *Risk-driven
+    *Los prototipos son una parte importante
+  -Modelo iterativo e incremental
+    *En cada iteración:
+      **Se realizan todas las fases
+      **Se añaden una o más funcionalidades
+  -RUP (Proceso Unificado)
+    *Es iterativo e incremental (caso particular)
+    *Use-case-driven
+    *Centrado en la arquitectura
+  -Asunciones habituales
+    *El cliente sabe lo que quiere
+    *El equipo entiende perfectamente lo que el cliente quiere
+    *No habrá cambios en los requisitos durante el desarrollo
+    *Los analistas/diseñadores son capaces de hacer y documentar un diseño perfecto
+    *El desarrollo tiene un final
+  -Panorama real
+    *Los clientes descubren lo que necestan
+    *Es necesaria mucha comunicación para transmitir claramente una idea
+    *Los requisitos cambian
+    *Difícil tener en cuenta a priori todas las variables influyentes en un sistema
+    *Siempre hay cosas que mejorar o ampliar
+  -Problemas de las metodologías "clásicas"
+    *Centradas en prevenir y no adaptarse al cambio
+    *Comunicación basada en documentos
+    *Varias personas responsables de una misma funcionalidad a distintos niveles
+    *Estimaciones no realistas
+    *El valor para el cliente se tiene poco en cuenta
+    *El producto es cerrado
