@@ -1,0 +1,139 @@
+GIT
+  -Los ficheros pueden estar en tres estados
+    *Commited: Igual que en último commit
+    *Modified: Cambiado desde el último commit
+    *Staged: Cambiado y preparado para el nuevo commit
+    *(NOTA)Si un fichero es staged en cierto punto y se vuelve a modificar, se hará commit de la versión staged y no la nueva
+  -Existen 3 secciones principales relacionadas con los anteriores estados
+    *Working directory: donde están los ficheros que serán modificados
+    *Staging area: fichero con la info del próximo commit
+    *Git directory: metainfo de git
+  -Para crear un repo
+    *git init
+      **Genera el .git
+      **Convierte el directorio en un WD
+    *git clone <URL>
+      **El repo clonado se configura como origin
+  -Se configura en 3 ficheros
+    */etc/gitconfig
+      **Para los usuarios del sistema
+    *~/.gitconfig
+      **Para el usuario actual
+      **Se usa --global
+    *.git/config
+      **Específica de un repo
+  -Ciclo de vida de los ficheros
+    *untracked -> git add -> staged -> git commit -> unmodified (commited) -> editamos el archivo -> modified
+  -Comandos informativos
+    *git status
+      **Estado de los ficheros
+    *git log
+      **Commits del repo
+      **Configurable
+  -Comandos de manipulación
+    *git mv <from> <to> || git rm
+      **Mover o eliminar fichero
+      **Se usan para mantener la historia del fichero al moverlo o renombrarlo
+  -Commits
+    *A un commit se le asigna un hash SHA-1
+    *El último commit recibe el alias "HEAD"
+      **HEAD puede modificarse con git commit --amend
+    *Se puede restaurar el repo al estado de un commit concreto con git reset --hard <commit>
+      **La opción hard también devuelve los ficheros a su estado
+  -Repos remotos
+    *Cada repo puede tener uno o varios repos remotos asociados
+    *No se les hace commit directo
+    *El repo remoto por defecto se llama ORIGIN
+    *Un repo clonado local tendrá como ORIGIN el repo remoto
+    *Se añaden con git remote add <nombre> <URL>
+    *Se pueden ver los repos remotos con git remote [-v]
+  -Alojamiento
+    *Github (classic)
+    *BitBucket (repos privados gratis)
+    *Gitlab (Autohosting de repos)
+  -Acciones con repos remotos
+    *git push [<remote>][<branch>]
+      **Envía commits locales
+    *git pull [<remote>][<branch>]
+      **Descarga commits remotos
+        ***git fetch
+      **Los mezcla con los locales
+        ***git merge
+      **Si se usa --rebase se hará un rebase de local sobre remoto en vez de merge
+  -Diferencias
+    *Comparaciones entre distintos estados de ficheros
+    *WD vs Staged
+      **git diff
+    *WD vs Commit
+      **git diff <commit>
+    *Staged vs HEAD
+      **git diff --staged
+    *Fichero en commits distintos
+      **git diff <commit1> <commit2> <file>
+  -Branching
+    *Una Branch es una vía de desarrollo
+    *Puede tener commits propios
+    *Puede compartir ancestros (commits) con otras ramas
+    *Pueden ser mergeadas en cualquier momento
+      **Si se produce conflicto deverá resolverse manualmente
+    *Suelen utilizarse para
+      **Mantener las versiones publicables
+      **Mantener una versión de desarrollo funcional
+      **Hacer pruebas de desarrollo
+      **Desarrollar funcionalidades futuras
+      **Hotfixes
+    *Uso
+      **Creación
+        ***git branch <name>
+      **Creación y cambio a la misma
+        ***git checkout -b <name>
+      **Cambio de rama
+        ***git checkout <name>
+      **Mezclar ramas
+        ***git merge <name a mezclar con actual>
+      **Consultar ramas existentes
+        ***git branch
+      **Eliminar ramas
+        ***git branch -d <name>
+  -Rebase
+    *Otra forma de hacer merge
+    *Provoca cambios en los commits, pero no requiere commit de mezcla adicional
+    *No deberían modificarse commits pusheados a remoto
+      **Afectará a otros desarrolladores
+      **git push --force
+    *Uso
+      **Cambiar la rama de origen de la rama actual
+        ***git rebase <nuevo origen>
+      **Cambiar la rama origen de cualquier rama
+        ***git rebase <nuevo origen> <origen rama>
+      **cambiar la rama orignen de cualquier rama tomando otra rama como origen
+        ***git rebase --onto <nuevo origen> <origen> <rama>
+      **Hacer un rebase interactivo (permite reescribir la historia de commits)
+        ***git rebase -i
+      **Hacer un pull usando el último commit remoto como base para los nuevos commits
+        ***git pull --rebase
+  -Tagging
+    *Los commits pueden marcarse con etiquetas
+      **Usualmente con una versión del programa en desarrollo
+    *Pueden verse las etiquetas con git tag
+    *Se añaden con git tag -a <nombre>
+  -Stash
+    *Toma los ficheros en stage y tracked modificados y los guarda en una pila
+    *El WD queda limpio, pues se guarda su estado actual "sucio"
+    *Sirve para
+      **Demorar cambios
+      **Pull cuando existen modificaciones locales
+      **Mover cambios uncommited entre ramas
+    *Uso
+      **Guardar
+        ***git stash
+      **Recuperar borrando de la pila
+        ***git stash pop
+      **Recuperar sin borrar
+        ***git stash apply [id]
+      **Listar estados en pila
+        ***git stash list
+      **Eliminar del stash
+        ***git stash drop [id]
+      **Vaciar la pila
+        ***git stash clear
