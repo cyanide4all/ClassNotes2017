@@ -1,0 +1,110 @@
+El Manifiesto Ágil
+  -Se reúnen expertos en software en 2001
+    *Objetivo discusión sofre el futuro del campo
+    *Ideas de metodologías emergentes (scrum, xp, etc...)
+    *Buscaban alternativa al pesado método document-driven
+    *Se funda la Agile Aliance
+      **Definen las bases del Desarrollo Ágil -> Manifiesto Ágil
+      **"La derecha mola pero la izquierda más"
+        [[Individuos e interacciones  -   Procesos y herramientas]]
+        [[Software funcionando        -   Documentación extensiva]]
+        [[Colaboración con el cliente -   Negociación contractual]]
+        [[Respuesta ante el cambio    -   Seguir un plan]]
+      **Hay además 12 principios. Si los sigue es metodología ágil
+Valores Ágiles
+  -4, claros y obios pero de aplicación compleja
+    *Exigen rigor a diario
+    *Van en contra de lo extablecido anteriormente
+    *Objetivo: Cambio de prioridades
+    *[[Individuos e interacciones  -   Procesos y herramientas]]
+      **Las personas que hacen el trabajo son las que saben mejor cómo hacerlo
+      **Autoorganización del equipo de desarrollo
+        ***Decicir herramientas óptimas
+        ***Buscan mejor modo de hacer las cosas
+      **Los procesos y herramientas sirven a las personas y no al revés
+    *[[Software funcionando        -   Documentación extensiva]]
+      **Esto NO implica que NO documentacion
+      **Para el cliente tener algo funcionando tiene máß valor que su documentación
+        ***Beneficios incipientes
+        ***Visualización de qué quiere el cliente -> Feedback
+      **Documentación extensiva -> Procesos rígidos
+      **Se debe documentar cuando:
+        ***Se cree valor
+        ***Facilite el mejor avance del proyecto
+      **Se suele documentar
+        ***Backlogs (TODO's), historias de usuarios, pruebas de aceptación, gráficos, etc...
+        ***Algunas corrientes dicen que "El buen código esta auto-documentado"
+          ¤Fácil de entender
+          ¤Control de versiones como apoyo para explicar la evolución del código
+      **En general, +diseño = -documentación
+    *[[Colaboración con el cliente -   Negociación contractual]]
+      **Lo más fluída posible
+      **Proyectos contract-based favorecen malas relaciones
+        ***Debería ser un acuerdo de mínimos
+      **Se prefieren contratos basados en tiempo y recursos
+        ***Se cobran por tiempo y recursos empleados
+        ***Desarrollo iterativo
+        ***Colaboración continua con evaluación del cliente
+          ¤Si no le gusta, se reorienta sin romper el contrato
+        ***Se debe mantener la calidad para satisfacer las necesidades del cliente
+      **En determinados ámbitos (público, grandes empresas) es difícil este tipo de contrato
+      **Triángulo de la calidad:
+        ***     ALCANCE - COSTE - RECURSOS
+    *[[Respuesta ante el cambio    -   Seguir un plan]]
+      **Alta incertidumbre, mucho cambio
+      **Los cambios se aceptan y nos adaptamos a ellos
+      **Sin gran planificación
+      **Retrasando la planificación obetnemos más precisión
+Principios Ágiles
+  -1-La prioridad es proporcionar valor al cliente
+    *Y NO OTRAS COSAS COMO:
+      **Cumplir fechas
+      **Burocracia
+      **Satisfacer al director del proyecto
+      **Implementaciones no relevantes o poco usables frente a requisitos importantes
+    *Bajo esta directriz, se maximiza el beneficio parar el cliente
+  -2-Aceptamos que los requisitos cambien en todas las etapas del desarrollo
+    *Aprovechar el cambio para generar ventaja competitiva al cliente
+    *Clave para el éxito o supervivencia del cliente
+  -3-Entrega de software frecuente
+    *Entre 2 semanas y 2 meses
+    *Períodos cortos -> trabajo eficiente
+    *Conseguimos
+      **Feedback rápido
+      **Respuesta en valor más temprana
+    *Más difícil trabajar en periodos cortos
+      **Requiere de cierta experiencia en el equipo de desarrollo
+  -4-Responsables de negocio y desarrolladores trabajamos juntos
+    *Se debe vencer una "resistencia" a la colaboración (prejuiciosa)
+    *Normalmente falta comunicación
+    *Se consigue
+      **Que se entiendan mejor el producto y la visión de negocio
+      **Los responsables de negocio entienden mejor los retos tecnológicos
+  -5-Desarrollo entorno a individuos motivados
+    *Personal cualificado
+      **Asumir responsabilidades para mantener motivación
+      **Deben ser valorados
+        ***Implicación -> Calidad
+        ***Pérdida -> Impacto negativo
+      **Un espacio adecuado favorece el desarrollo
+        ***Espacios que fomenten la colaboración y faciliten la comunicación
+  -6-Comunicación cara a cara
+    *Es una de las grandes claves del éxito
+    *Existen equipos distribuídos
+      **Hay que prestar atención a cómo se realizarán en tal caso las comunicaciones
+  -7-Software funcionando como medida principal de progreso
+  -8-Desarollo sostenible. Ritmo constante de forma indefinida
+    *Evitar crunch-times (Cumplir la fecha a toda costa) porque horas extra y etc
+    *Jornadas largas/intensivas -> menos productividad
+      **Requiere de concentración
+      **Cansancio mental -> Más errores, dificultad para encontrar soluciones
+  -9-Atención continua a la excelencia y diseño para mejorar la calidad
+    *Buen diseño, arquitectura, pruebas y calidad de código
+      **Fácil modificar
+      **Fácil comprender
+      **Reduce el tiempo de desarrollo y mejora la calidad del producto
+    *Se cambia un gran diseño por un proceso continuo, evitando sobrediseños y arquitecturas complejas
+    *Participación colectiva en el diseño -> aprendizaje colectivo y mejora continua
+
+*****************NOTAS*****************
+  Martin Fowler - blog (google)
