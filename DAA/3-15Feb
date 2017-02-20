@@ -1,0 +1,151 @@
+Programación Extrema (XP)
+  -Ken Beck es el padre de la XP
+    *Es ligera
+      **Solo se hace lo necesario para crear valor para el cliente
+    *No existe un proceso único aplicable siempre
+    *El equipo debe aprender y mejorar continuamente
+    *Se basa en abordar las limitaciones del desarrollo de software
+      **No aborda el resto de materias del proceso de negocio del software
+    *Funciona en equipos de cualquier tamaño
+    *Se basa en un conjunto de valores (Criterios), principios (Directrices) y prácticas (Acciones cotidianas)
+      **Valores y principios se mantienen pero las prácticas deben cambiar si crecen los equipos
+    *Se adapta a requisitos imprecisos o rápidamente cambiantes
+  -Valores
+    *Comunicación
+      **Es el más importantes
+      **Resolver problemas rápidamente
+      **Compartir conocimiento para mejora conjunta
+      **Los miembros del equipo confían entre sí
+    *Sencillez
+      **Sistema lo más sencillo posible manteniendo la funcionalidad
+    *Retroalimentación
+      **El equipo se esfuerza por obtener tal cosa en ciclos cortos (minutos/horas)
+        ***Antes se sabe, antes se adapta
+      **Formas
+        ***Opiniones sobre ideas
+        ***Aspecto del código
+        ***Facilidad de prueba
+        ***Funcionalidad de prueba
+        ***Funcionamiento una vez desplegada la idea
+      **Puede producirse un exceso de este recurso
+        ***Decelera momentáneamente el ritmo de avance para solución de problemas
+      **Es parte crítica en la comunicación y favorece la simplicidad
+    *Valentía
+      **Afrontar problemas que descubras
+      **Asumir errores
+    *Respeto
+      **Los valores deben aplicarse con respeto
+      **Respeto = sentimiento de valoración
+        ***Mejora de autoestima
+        ***Apoya la mejora
+        ***Rendimiento mejorado
+        ***Sentimiento de equipo
+    *Otros
+      **XP está abierta a tener en cuenta más valores
+        ***Ej: calidad de vida
+  -Principios
+    *Humanidad
+      **Software hecho por personas
+        ***Los procesos inhumanos reducen la productividad
+      **Necesidades
+        ***Seguridad básica
+        ***Realización
+        ***Integración
+        ***Posibilidad de relación y crecimiento
+      **Equilibrio entre necesidades de individuo y equipo
+      A REZAR A TU PUTA CASA
+    *Economía
+      **Hay alguien invirtiendo en el proyecto (cliente)
+      **Es importante asegurar que el desarrollo
+        ***Tiene valor de negocio
+        ***Cubre las metas de negocio
+        ***Sirve para las necesidades de negocio
+      **Cuanto antes funcione el sistema antes se produce el retorno de inversion
+      **Si es reutilizable pues mejor que mejor
+    *Beneficio mútuo
+      **El principio más importante y difícilmente alcanzable
+      **
+    *Auto-Similitud
+      **Intenta reutilizar soluciones
+      **No solo a nivel diseño/programación
+      **No tiene por que funcionar perfectamente, pero es un putno de partida
+    *Mejora
+      ** "No existe la perfección, pero siempre se puede perfeccionar"
+      **Excelencia a través de mejora continua
+        ***Hazlo lo mejor que puedas hoy, entendiendo y aprendiendo para hacerlo mejor mañana
+    *Diversidad
+      **La homogeneidad no es efectiva
+      **Se necesitan miembros con diferentes especialidades
+      **Favorece el encontrar múltiples soluciones
+      **Implica existencia de conflictos positivos, que deben ser resueltos de forma productiva
+    *Reflexión
+      **Cómo y por qué se hace lo que se hace
+      **Analizar qué funciona y qué no
+        ***No ocultar errores, exponerlos para mejora
+      **La reflexión no es puramente intelectual, debe ser respaldada con datos
+      **Reflexión tras acción
+    *Flujo
+      **Mantener un flujo contante de publicación
+        ***Adaptar el ritmo de trabajo al tamaño de las funcionalidades o al revés
+      **Aumenta confianza con el cliente
+      **Evita sobrecargas puntuales de trabajo (crunch time)
+      **Si el flujo es corto, mayor retroalimentación
+    *Oportunidad
+      **No solo aprender del problema si no mejorar con la solución
+      **Si solamente arreglamos no mejoramos como equipo
+    *Redundancia
+      **Los problemas que son críticos deben ser resueltos de múltiples formas
+        ***Si alguna falla existen alternativas
+        ***Algunas soluciones provienen de un proceso de auto-similitud
+      **Punto importante de mejora y reflexión
+      **Redundancia = coste / Redundancia = prevención de fallos
+    *Fallo
+      **Si no sabes solucionar el problema, falla
+        ***Es un medio de aprendizaje
+        ***Muchas veces es mejor probar y fallar que discutir sobre las posibilidades
+    *Calidad
+      **Objetivo y constante, no medio de control
+      **Calidad alta = desarrollo rápido
+      **Problema: desconocimiento a la hora de conseguir calidad
+      **Refinar hasta obtener calidad
+    *Pequeños pasos
+      **Hacer cambios poco a poco
+        ***Control sobre el desarrollo
+        ***Fácil recuperación ante fallos
+      **Repercuten en ejecución a un ritmo muy alto
+        ***Por tanto, no afecta al desarrolln
+    *Responsabilidad aceptada
+      **La responsabilidad se asume, no se asigna
+      **Con la tarea se asumen su estimación temporal, diseño, implementación, etc...
+      **El caso contrario genera problemas de comunicación y confianza
+  -Prácticas
+    *Trabajo en equipo
+      **Sentarse juntos
+        ***Espacio abierto, grande, para todos
+        ***Necesidad de privacidad cubierta con espacios de reunión cercanos u horas limitadas de trabajo
+        ***Proximidad física, mejor comunicación
+        ***El trabajo cara a cara mejora la productividad
+      **Equipo completo
+        ***Equipo heterogéneo (todas las habilidades y perspectivas necesarias)
+        ***Las personas necesitan sentimiento de equipo
+          ¤Todos pertenecemos
+          ¤Todos estamos en esto juntos
+          ¤Todos apoyamos el trabajo, crecimiento y aprendizaje del resto
+        ***Los equipos no tienen por qué ser cerrados
+          ¤Variación entre proyectos, dependiendo de las necesidades
+        ***Tamaño del equipo
+          ¤No debe afectar a las comunicaciones y confianza de manera negativa
+          ¤Límites
+            ¤¤12  - Interacción diaria
+            ¤¤150 - Problemas al siquiera reconocer caras
+          ¤Antes que equipos gigantescos, dividir el proyecto en subproyectos
+      **Espacio de trabajo informativo
+        ***El espacio refleja y sirve al trabajo
+        ***Debe cubrir necesidades de comfort y favorecer comunicación
+      **Trabajo con energía
+        ***Trabajar las horas que se sea productivo
+        ***Horas de dedicación plena
+        ***Horas de más o trabajo durante enfermedad o cansancia traen consecuencias
+          ¤Pérdida de concentración, menos productividad
+          ¤Mayor cansancio a largo plazo
+        
